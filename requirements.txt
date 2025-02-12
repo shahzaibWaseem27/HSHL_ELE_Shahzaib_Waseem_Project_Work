@@ -1,0 +1,82 @@
+Functional requirements:
+
+- User should be able to use the PCB in multiple university courses by applying "plug and play" concept
+
+- User can perform "plug and play" by:
+
+	- Having a "peripherals" board that is the target of a "plug"
+	- Having multiple "control-unit" boards that would act as "plugs" that contain programmer unit / programmer interface (JTAG / USBASP)
+
+- Once a "plug" is placed on the peripherals board, the User can "play" on the peripherals board
+
+- The control unit boards are independent, self-sufficient systems
+
+- The peripherals board is dependent on the presence and connection of a control unit board in order for said peripherals to work
+
+- User should be able to use the following control units with the board:
+
+	- Arduino Uno
+	- Artix 7
+	- an 8-bit MCU
+	- a 32-bit MCU
+
+
+The reason that I have to choose which peripherals will be used by Arduino is because Arduino has limited I/O pins.
+
+So I have to select the best choices to make with the limited I/O pins that I have for Arduino
+
+
+
+
+- Peripherals:
+
+Seven segments display				(N)
+OLED I2C (Select I2C bus with jumpers)		(A + N)	(A-A4, A-A5)
+RFID I2C					(A + N)	(A-A4, A-A5)
+PIR Motion sensor				(A
+WIFI module ESP8266				(N
+Microphone module				
+LAN
+Zig Bee
+GPS
+Bluetooth module HC-05				(A + N) (A-D0, A-D1)
+DC Motor controller L298N			(A + N)	(A-D3, A-D2, A-D4, A-D6, A-D7, A-D8)
+IR sensors x 2					(A + N)	(A-D5, A-D9)
+Active and Passive Buzzer			(A
+Ultrasonic sensor				(A + N)	(A-D11, A-D12)
+Light sensor (LDR)				(A + N)	(A-A2,
+Keypad						(A
+Thermistor
+Buzzer						(A + N)	(A-A2)
+Temperature and humidity sensor DHT22		(A + N)	(A-A1)
+RTC module DS3231 I2C				(A + N)	(A-A4, A-A5)
+Piezoelectric vibration sensor			(A + N)	()
+Servo motor controller				(A + N)	(A-D10)
+Push button					(A)	(A-D13)
+POTS(Potentiometer)				(A + N)	(A-A3)
+Relay modules
+Solenoid valve
+Tilt sensor
+LEDs
+Push buttons
+Slide switches
+Gas sensor
+Fingerprint sensor
+Solar panel
+Infrared receiver
+
+
+Non-functional requirements:
+
+- The PCB should not contain all the different control units already soldered
+
+- dimensions: x y z (euro kart
+
+
+
+
+
+
+
+
+
