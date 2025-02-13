@@ -51124,6 +51124,16 @@
 		(layer "F.SilkS")
 		(uuid "959ec0e0-7110-4fef-92fa-2c44af44ac99")
 	)
+	(gr_line
+		(start 168.749 100.022)
+		(end 125.569 100.022)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c22d8581-cad5-4109-b815-94a27bd36cf6")
+	)
 	(gr_rect
 		(start 56.896 15.24)
 		(end 236.896 195.24)
